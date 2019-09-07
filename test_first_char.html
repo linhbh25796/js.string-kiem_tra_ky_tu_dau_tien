@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function upperCase(string) {
+        let regexp = /^[A-Z]/;
+        if (regexp.test(string)){
+            console.log("String's first character is upper!! ")
+        }
+        else {
+            console.log("String 's not first character is upper")
+        }
+    }
+    upperCase('Abcd');
+    upperCase('abcd');
+    upperCase('Nguyen Van nam');
+    upperCase('NGUYEN VAN NAM');
+    upperCase('nguyen van Nam');
+</script>
+</body>
+</html>
